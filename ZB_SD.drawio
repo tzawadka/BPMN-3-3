@@ -1,0 +1,1203 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" version="24.7.6">
+  <diagram name="Strona-1" id="p0SzSgUpgOsD2zM8md9e">
+    <mxGraphModel dx="6120" dy="2627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-352" value="" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="210" y="6430" width="960" height="1920" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-1" value="&lt;div&gt;Pracownik dziekanatu&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;startSize=20;horizontal=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="30" y="300" width="1080" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-15" value="Przyjęcie podania" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;bpmnShapeType=call;taskMarker=user;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-1">
+          <mxGeometry x="130" y="29.999999999999886" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-23" value="Warunkowa rejestracja na dany semestr" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-1">
+          <mxGeometry x="620" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-21" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-1">
+          <mxGeometry x="440.0033333333333" y="139.9999999999999" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="AlgaWU_Uzo2HSWFZ5_zv-1" source="AlgaWU_Uzo2HSWFZ5_zv-21" target="AlgaWU_Uzo2HSWFZ5_zv-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-6" value="Dziekan" style="swimlane;startSize=20;horizontal=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="30" y="170" width="1080" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-19" value="Przyjęcie podania" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;bpmnShapeType=call;isLoopSub=1;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-6">
+          <mxGeometry x="130" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-8" value="Student" style="swimlane;startSize=20;horizontal=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="30" y="585" width="1080" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-9" value="Start" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-8">
+          <mxGeometry x="50" y="85" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-11" value="Złożenie podania o wznowienie studiów" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;bpmnShapeType=call;taskMarker=manual;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-8">
+          <mxGeometry x="130" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="AlgaWU_Uzo2HSWFZ5_zv-8" source="AlgaWU_Uzo2HSWFZ5_zv-9" target="AlgaWU_Uzo2HSWFZ5_zv-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-11" target="AlgaWU_Uzo2HSWFZ5_zv-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="379.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-15" target="AlgaWU_Uzo2HSWFZ5_zv-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-21" target="AlgaWU_Uzo2HSWFZ5_zv-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="509.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-19" target="AlgaWU_Uzo2HSWFZ5_zv-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="498.3333333333333" y="369.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-25" target="AlgaWU_Uzo2HSWFZ5_zv-240">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850.0000000000005" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-25" value="Powtórna rejestracja na studia od nowa" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;" vertex="1" parent="1">
+          <mxGeometry x="660" y="469.9999999999999" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-23" target="AlgaWU_Uzo2HSWFZ5_zv-241">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="805.0000000000005" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-34" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Podanie na studia&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="100" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-36" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Produkcja napojów w puszcze&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="275" y="1320" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-43" target="AlgaWU_Uzo2HSWFZ5_zv-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-43" value="Kontrola stanu zdrowia operatora" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1060" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-47" value="Nieaktualne badania lekarskie do pracy i wiek &amp;gt;50 lat" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-45" target="AlgaWU_Uzo2HSWFZ5_zv-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="990" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-49" value="Pracownik nie ma aktualnego badania wzroku" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-45" target="AlgaWU_Uzo2HSWFZ5_zv-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-45" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=end;symbol=general;" vertex="1" parent="1">
+          <mxGeometry x="285" y="1075" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-48" value="Wydanie skierowania na badania medycyny pracy i ogólne " style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="620" y="950" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-50" value="Skierowanie na badanie wzroku" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1060" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-52" value="Wywiad lekarski z pracownikiem" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;targetPerimeterSpacing=5;flowAnimation=0;startArrow=dash;startFill=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-45" target="AlgaWU_Uzo2HSWFZ5_zv-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-53" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Badania dla operatora dźwigu&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="920" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-54" target="AlgaWU_Uzo2HSWFZ5_zv-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="1495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-54" value="Start" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="1">
+          <mxGeometry x="75" y="1470" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-58" target="AlgaWU_Uzo2HSWFZ5_zv-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="1410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-58" target="AlgaWU_Uzo2HSWFZ5_zv-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="1560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-58" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=parallel;" vertex="1" parent="1">
+          <mxGeometry x="255" y="1470" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-60" target="AlgaWU_Uzo2HSWFZ5_zv-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="1490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-60" value="Napełnianie puszek" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1370" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-62" value="Nanoszenie etykiety na puszke" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-64" target="AlgaWU_Uzo2HSWFZ5_zv-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="1490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-64" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=parallel;" vertex="1" parent="1">
+          <mxGeometry x="615" y="1465" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-62" target="AlgaWU_Uzo2HSWFZ5_zv-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-67" target="AlgaWU_Uzo2HSWFZ5_zv-237">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="955.0000000000005" y="1490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-67" value="Zamykanie puszek" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1450" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-70" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Obsługa wpłatomatu&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="285" y="1640" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-94" value="Klient" style="shape=mxgraph.bpmn.swimlane;html=1;startSize=20;horizontal=0;swimlaneLine=1;collapsible=0;fontStyle=0;swimlaneFillColor=#ffffff;strokeWidth=2;isCollection=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="1690" width="1550" height="244" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-71" target="AlgaWU_Uzo2HSWFZ5_zv-80">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="1795" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-71" value="Start" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="1">
+          <mxGeometry x="75" y="1770" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-80" target="AlgaWU_Uzo2HSWFZ5_zv-77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="1795" as="targetPoint" />
+            <mxPoint x="290" y="1795" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-77" target="AlgaWU_Uzo2HSWFZ5_zv-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="1795" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-80" value="&#xa;Włożenie karty do czytnika kart&#xa;&#xa;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1754" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-82" target="AlgaWU_Uzo2HSWFZ5_zv-84">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="1795" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-82" value="Wprowadzenie numeru PIN" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1755" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-84" target="AlgaWU_Uzo2HSWFZ5_zv-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="1795" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-84" value="Określenie kwoty wpłaty" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1755" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-86" target="AlgaWU_Uzo2HSWFZ5_zv-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="1795" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;startArrow=oval;startFill=0;endArrow=block;endFill=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-86" target="AlgaWU_Uzo2HSWFZ5_zv-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-86" value="Włożenie bankonów" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1755" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-89" value="Tak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-88" target="AlgaWU_Uzo2HSWFZ5_zv-90">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1130" y="1795" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-88" value="&lt;div&gt;Czy wykrukowac potwierdzenie &lt;br&gt;&lt;/div&gt;&lt;div&gt;wpłaty?&lt;br&gt;&lt;/div&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" vertex="1" parent="1">
+          <mxGeometry x="985" y="1770" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-90">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1305" y="1795" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-90" value="Odebranie wydruku potwierdzenia wpłaty" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="1755" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=dash;startFill=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-88" target="AlgaWU_Uzo2HSWFZ5_zv-236">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1330" y="1745" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1330" y="1720" />
+              <mxPoint x="1010" y="1720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-77" value="Wybranie jezyka" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1755" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-97" value="Bank" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="1960" width="1550" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-98" value="Start" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-97">
+          <mxGeometry x="90" y="60" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-100" value="Sprawdzenie karty i numeru PIN" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-97">
+          <mxGeometry x="530" y="45" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="AlgaWU_Uzo2HSWFZ5_zv-97" source="AlgaWU_Uzo2HSWFZ5_zv-98" target="AlgaWU_Uzo2HSWFZ5_zv-100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="85" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-104" value="&lt;div&gt;Otwarcie transakcji na &lt;br&gt;&lt;/div&gt;&lt;div&gt;rachunku&lt;br&gt;&lt;/div&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-97">
+          <mxGeometry x="720" y="45" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="AlgaWU_Uzo2HSWFZ5_zv-97" source="AlgaWU_Uzo2HSWFZ5_zv-100" target="AlgaWU_Uzo2HSWFZ5_zv-104">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="86" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-107" value="Sprawdzenie salda" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-97">
+          <mxGeometry x="880" y="45" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="AlgaWU_Uzo2HSWFZ5_zv-97" source="AlgaWU_Uzo2HSWFZ5_zv-104" target="AlgaWU_Uzo2HSWFZ5_zv-107">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="86" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;startArrow=oval;startFill=0;endArrow=block;endFill=0;" edge="1" parent="1" target="AlgaWU_Uzo2HSWFZ5_zv-100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="1836" as="sourcePoint" />
+            <mxPoint x="545" y="2005" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="1930" />
+              <mxPoint x="580" y="1930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=block;endFill=0;startArrow=oval;startFill=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-84" target="AlgaWU_Uzo2HSWFZ5_zv-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;startArrow=oval;startFill=0;endArrow=blockThin;endFill=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-84" target="AlgaWU_Uzo2HSWFZ5_zv-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-109" target="AlgaWU_Uzo2HSWFZ5_zv-112">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="2045" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-109" value="Aktualizacja środków na rachunku" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="1076" y="2005" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-107" target="AlgaWU_Uzo2HSWFZ5_zv-109">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1136" y="2045" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-112" target="AlgaWU_Uzo2HSWFZ5_zv-234">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1395" y="2046" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-112" value="Zamknięcie transakcji" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="2005" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-116" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Akceptacja faktury - proforma&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="305" y="2220" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-118" value="Dział księgowości" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="2290" width="810" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-119" value="księgowe" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-118">
+          <mxGeometry x="20" width="790" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-122" value="Start" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-119">
+          <mxGeometry x="60" y="105" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-127" value="&lt;div&gt;Niesprawdzona faktura&lt;/div&gt;&lt;div&gt;proforma&lt;br&gt;&lt;/div&gt;" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;bpmnTransferType=input;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-119">
+          <mxGeometry x="65" y="10" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-141" value="Faktura zaakceptowana" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;bpmnTransferType=none;isCollection=1;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-119">
+          <mxGeometry x="280" y="170" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-146" value="Zlecenie płatności faktury" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;bpmnTransferType=none;isCollection=1;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-119">
+          <mxGeometry x="660" y="130" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-148" value="Dowód opłacenia proformy" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;bpmnTransferType=none;isCollection=1;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-119">
+          <mxGeometry x="540" y="180" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-233" value="Powodzenie" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-119">
+          <mxGeometry x="560" y="75" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-120" value="Dyrektor" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-118">
+          <mxGeometry x="20" y="260" width="790" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-124" target="AlgaWU_Uzo2HSWFZ5_zv-126">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="2713.529411764706" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-124" target="AlgaWU_Uzo2HSWFZ5_zv-130">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="2590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-124" value="Sprawdzenie faktury" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;" vertex="1" parent="1">
+          <mxGeometry x="150" y="2380" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-122" target="AlgaWU_Uzo2HSWFZ5_zv-124">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="2420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-126" target="AlgaWU_Uzo2HSWFZ5_zv-133">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="2713.529411764706" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-126" target="AlgaWU_Uzo2HSWFZ5_zv-141">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="2510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-126" value="Akceptacja płatności" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;" vertex="1" parent="1">
+          <mxGeometry x="150" y="2673.529411764706" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-128" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-127" target="AlgaWU_Uzo2HSWFZ5_zv-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-130" value="&lt;div&gt;Faktura proforma - nowa&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;bpmnTransferType=none;isCollection=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="2560" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-130" target="AlgaWU_Uzo2HSWFZ5_zv-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-134" value="Nie " style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-133" target="AlgaWU_Uzo2HSWFZ5_zv-231">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="495" y="2713.529411764706" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-137" value="Tak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-133" target="AlgaWU_Uzo2HSWFZ5_zv-139">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="2390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-133" value="Zaakceptowano?" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" vertex="1" parent="1">
+          <mxGeometry x="325" y="2688.529411764706" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-139" target="AlgaWU_Uzo2HSWFZ5_zv-233">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="565" y="2390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-139" target="AlgaWU_Uzo2HSWFZ5_zv-146">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="2480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-139" target="AlgaWU_Uzo2HSWFZ5_zv-148">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="2520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="2500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-139" value="Realizacja płatności" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;" vertex="1" parent="1">
+          <mxGeometry x="410" y="2350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-141" target="AlgaWU_Uzo2HSWFZ5_zv-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-149" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Obsługa wniosku urzędowego&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="2923" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-150" value="Ministerstwo środowiska" style="swimlane;startSize=20;horizontal=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry y="3000" width="1170" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-232" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-150">
+          <mxGeometry x="885" y="65" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-151" value="Urząd gminy" style="swimlane;startSize=20;horizontal=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="7.5" y="3230" width="1162.5" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-163" value="Weryfikacja wniosku" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-151">
+          <mxGeometry x="132.5" y="40.00190476190437" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-172" value="odebranie opini z MŚ" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=receive;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-151">
+          <mxGeometry x="562.5" y="40.00190476190437" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="AlgaWU_Uzo2HSWFZ5_zv-151" source="AlgaWU_Uzo2HSWFZ5_zv-173" target="AlgaWU_Uzo2HSWFZ5_zv-172">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="602.5" y="80.00190476190437" as="targetPoint" />
+            <mxPoint x="526.5" y="80.04347826086996" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-173" value="Przekazanie wniosku do ministerstwa środowiska" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=send;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-151">
+          <mxGeometry x="406.5" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-176" value="Odpowiedź na zapytanie wnioskującego" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-151">
+          <mxGeometry x="742.5" y="40" width="127.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="AlgaWU_Uzo2HSWFZ5_zv-151" source="AlgaWU_Uzo2HSWFZ5_zv-172" target="AlgaWU_Uzo2HSWFZ5_zv-176">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="772.5" y="80.00190476190437" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-230" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-151">
+          <mxGeometry x="292.5" y="220" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-152" value="Człowiek - wnioskujący" style="swimlane;startSize=20;horizontal=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="7.5" y="3570" width="1165" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-153" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-152">
+          <mxGeometry x="42.5" y="70" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-155" value="Przesłanie wniosku&amp;nbsp; o wycinkę lasu" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-152">
+          <mxGeometry x="127.5" y="55" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="AlgaWU_Uzo2HSWFZ5_zv-152" source="AlgaWU_Uzo2HSWFZ5_zv-153" target="AlgaWU_Uzo2HSWFZ5_zv-155">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="162.5" y="95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-157" value="Zapoznanie się z odpowiedzią od urzędu gminy" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-152">
+          <mxGeometry x="892.4995238095239" y="55" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="AlgaWU_Uzo2HSWFZ5_zv-152" source="AlgaWU_Uzo2HSWFZ5_zv-155" target="AlgaWU_Uzo2HSWFZ5_zv-157">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="816.3095238095239" y="-15" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-161" target="AlgaWU_Uzo2HSWFZ5_zv-163">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="3309.7619047619046" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-161" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=message;" vertex="1" parent="1">
+          <mxGeometry x="45" y="3285" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-160" value="&lt;div&gt;Wysłanie wniosku o &lt;br&gt;&lt;/div&gt;&lt;div&gt;wycinkę&lt;br&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;startArrow=oval;startFill=0;endArrow=block;endFill=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-155" target="AlgaWU_Uzo2HSWFZ5_zv-161">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="3310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-166" value="Nie" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-165">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="3450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-169" value="Tak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-165">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="413.9999999999998" y="3310.0019047619044" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-165" value="&lt;div&gt;Czy wniosek został&lt;/div&gt;&lt;div&gt;złożony poprawnie?&lt;br&gt;&lt;/div&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" vertex="1" parent="1">
+          <mxGeometry x="295" y="3285.0019047619044" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-163" target="AlgaWU_Uzo2HSWFZ5_zv-165">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="3310.0019047619044" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-174" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-173" target="AlgaWU_Uzo2HSWFZ5_zv-165">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-179" value="Odpowiedź od urzędu" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=oval;startFill=0;endArrow=block;endFill=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-178" target="AlgaWU_Uzo2HSWFZ5_zv-157">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="3665" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-178" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=message;" vertex="1" parent="1">
+          <mxGeometry x="935" y="3285" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-176" target="AlgaWU_Uzo2HSWFZ5_zv-178">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="3310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-181" target="AlgaWU_Uzo2HSWFZ5_zv-183">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="3090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-181" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=message;" vertex="1" parent="1">
+          <mxGeometry x="449.07692307692287" y="3065" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-180" value="Przesłanie dokumentacji" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;startArrow=oval;startFill=0;endArrow=block;endFill=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-173" target="AlgaWU_Uzo2HSWFZ5_zv-181">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="474.07692307692287" y="3090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-183" target="AlgaWU_Uzo2HSWFZ5_zv-185">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="3090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-183" value="Analiza wniosku" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=businessRule;" vertex="1" parent="1">
+          <mxGeometry x="540" y="3050" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-185" target="AlgaWU_Uzo2HSWFZ5_zv-232">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="885" y="3090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-185" value="Wydanie opini eksperta ds.lasów" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;" vertex="1" parent="1">
+          <mxGeometry x="700" y="3050" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-188" value="Opinia eksperta" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=oval;startFill=0;endArrow=block;endFill=0;" edge="1" parent="1" target="AlgaWU_Uzo2HSWFZ5_zv-172">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="3115" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="910" y="3150" />
+              <mxPoint x="630" y="3150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-189" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Karta płatnicza - prezentowa&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="335" y="3840" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-190" value="Firma korzystająca z kart(bezpośredni klient)" style="swimlane;startSize=20;horizontal=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="5" y="3910" width="1615" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-196" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-190">
+          <mxGeometry x="35" y="125" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-198" value="Wypełnienie wniosku o kartę prezentową" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-190">
+          <mxGeometry x="115" y="110.00000000000091" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="AlgaWU_Uzo2HSWFZ5_zv-190" source="AlgaWU_Uzo2HSWFZ5_zv-196" target="AlgaWU_Uzo2HSWFZ5_zv-198">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="155" y="150.0000000000009" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-192" value="Bank specjlany" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry y="4260" width="1610" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-193" value="Oddział banku specjalnego" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-192">
+          <mxGeometry x="20" width="1590" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-212" value="Weryfikacja wniosku" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-193">
+          <mxGeometry x="110" y="80.00000000000091" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-217" value="Powiadomienie wnioskującego o odrzuceniu wniosku" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-193">
+          <mxGeometry x="479.08" y="79.99555555555526" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-194" value="Dział produkcji kart prezentowych" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-192">
+          <mxGeometry x="20" y="210" width="1590" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-201" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-200" target="AlgaWU_Uzo2HSWFZ5_zv-202">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="953.3333333333334" y="4060.000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-209" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;startArrow=oval;startFill=0;endArrow=block;endFill=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-200" target="AlgaWU_Uzo2HSWFZ5_zv-210">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="4380.000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-200" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=message;" vertex="1" parent="1">
+          <mxGeometry x="315" y="4035.000000000001" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-199" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-198" target="AlgaWU_Uzo2HSWFZ5_zv-200">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="4060.000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-203" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-202" target="AlgaWU_Uzo2HSWFZ5_zv-204">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="4060.000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-202" value="Otrzymanie karty i Pinu do karty" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=eventInt;symbol=parallelMultiple;" vertex="1" parent="1">
+          <mxGeometry x="928.3333333333335" y="4035.000000000001" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-205" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-204" target="AlgaWU_Uzo2HSWFZ5_zv-206">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1300" y="4060.000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-204" value="Aktywacja karty prezentowej" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="4020.000000000001" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-206" target="AlgaWU_Uzo2HSWFZ5_zv-227">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1465" y="4060.000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-206" value="Karta aktywowana" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=catching;symbol=message;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="4035.000000000001" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-211" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-210" target="AlgaWU_Uzo2HSWFZ5_zv-212">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="4380.000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-210" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=message;" vertex="1" parent="1">
+          <mxGeometry x="55" y="4355.000000000001" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-215" value="Przyjęty" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=dash;startFill=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-214" target="AlgaWU_Uzo2HSWFZ5_zv-242">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="4550.000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-216" value="Odrzucony" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-214" target="AlgaWU_Uzo2HSWFZ5_zv-217">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="4379.555555555556" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-214" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="4355.000000000001" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-213" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-212" target="AlgaWU_Uzo2HSWFZ5_zv-214">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="4380.000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-220" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-219" target="AlgaWU_Uzo2HSWFZ5_zv-221">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="4140.000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-219" value="&lt;div&gt;Wiadomość do klienta&lt;/div&gt;&lt;div&gt;o odrzuceniu wniosku&lt;br&gt;&lt;/div&gt;" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=message;" vertex="1" parent="1">
+          <mxGeometry x="685" y="4354.995555555555" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-218" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-217" target="AlgaWU_Uzo2HSWFZ5_zv-219">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="4379.995555555555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-222" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-221" target="AlgaWU_Uzo2HSWFZ5_zv-225">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="805" y="4140.000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-221" value="&lt;div&gt;Odebranie wiadomości o&lt;/div&gt;&lt;div&gt;odrzuceniu wniosku&lt;br&gt;&lt;/div&gt;" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=message;" vertex="1" parent="1">
+          <mxGeometry x="685" y="4115.000000000001" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-225" value="Koniec" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="1">
+          <mxGeometry x="780" y="4115.000000000001" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-227" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="4035.000000000001" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-229" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="1">
+          <mxGeometry x="1085" y="3640" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-157" target="AlgaWU_Uzo2HSWFZ5_zv-229">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="3665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-231" value="Niepowodzenie" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="1">
+          <mxGeometry x="470" y="2688.529411764706" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-234" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="2021" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-236" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="1">
+          <mxGeometry x="1305" y="1770" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-237" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="1">
+          <mxGeometry x="930.0000000000005" y="1465" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-239" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="1">
+          <mxGeometry x="425.00000000000045" y="670" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-11" target="AlgaWU_Uzo2HSWFZ5_zv-239">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="695" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-240" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="1">
+          <mxGeometry x="825.0000000000005" y="485" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-241" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="1">
+          <mxGeometry x="780.0000000000005" y="335" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-243" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-242" target="AlgaWU_Uzo2HSWFZ5_zv-244">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580.0000000000005" y="4550.000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-242" value="Wyprodukowanie imiennej karty" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="310.00000000000045" y="4510.000000000001" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-245" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-244" target="AlgaWU_Uzo2HSWFZ5_zv-246">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950.0000000000005" y="4550.000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-244" value="Wysłanie karty płatniczej do klienta" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="520.0000000000005" y="4510.000000000001" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-249" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-246" target="AlgaWU_Uzo2HSWFZ5_zv-251">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050.0000000000005" y="4550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-246" value="Wysłanie karty" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=message;" vertex="1" parent="1">
+          <mxGeometry x="925.0000000000005" y="4525.000000000001" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-247" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;startArrow=oval;startFill=0;endArrow=block;endFill=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-246" target="AlgaWU_Uzo2HSWFZ5_zv-202">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-252" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-251" target="AlgaWU_Uzo2HSWFZ5_zv-253">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1230.0000000000005" y="4550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-251" value="Wysłanie listu z kodem Pin do karty prezentowej" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="990.0000000000005" y="4510" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-255" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-253" target="AlgaWU_Uzo2HSWFZ5_zv-256">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1370" y="4550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-253" value="List z Pinem do karty" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=message;" vertex="1" parent="1">
+          <mxGeometry x="1205.0000000000005" y="4525" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-254" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.855;entryY=0.855;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;startArrow=oval;startFill=0;endArrow=block;endFill=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-253" target="AlgaWU_Uzo2HSWFZ5_zv-202">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1230" y="4370" />
+              <mxPoint x="971" y="4370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-259" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-256" target="AlgaWU_Uzo2HSWFZ5_zv-260">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1490" y="4550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-256" value="Karta aktywowana" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=message;" vertex="1" parent="1">
+          <mxGeometry x="1345" y="4525" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-258" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;startArrow=oval;startFill=0;endArrow=block;endFill=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-206" target="AlgaWU_Uzo2HSWFZ5_zv-256">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-260" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="1">
+          <mxGeometry x="1465" y="4525" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-261" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Otwarcie rachunku IKE&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="4790" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-262" value="Placówka w CH - wyspa" style="swimlane;startSize=20;horizontal=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="5" y="4890" width="1605" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-291" value="&lt;div&gt;Otwarcie rachunku IKE w stoisku na wyspie&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-262">
+          <mxGeometry x="135" y="100" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-293" value="Wprowadzenie wniosku o IKE przez pracownika w CH" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-262">
+          <mxGeometry x="349" y="85" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-292" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="AlgaWU_Uzo2HSWFZ5_zv-262" source="AlgaWU_Uzo2HSWFZ5_zv-291" target="AlgaWU_Uzo2HSWFZ5_zv-293">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-267" value="Oddział banku" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry y="5190" width="1610" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-268" value="Sekcja wniosków" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-267">
+          <mxGeometry x="20" width="1590" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-282" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=message;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-268">
+          <mxGeometry x="115" y="90" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-269" value="Sekcja techniczna" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-267">
+          <mxGeometry x="20" y="240" width="1590" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-277" value="&lt;div&gt;Otwarcie konta IKE w&lt;/div&gt;&lt;div&gt;oddziale&lt;br&gt;&lt;/div&gt;" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-269">
+          <mxGeometry x="110" y="100" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-271" value="Centrala banku" style="swimlane;startSize=20;horizontal=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2.5" y="5760" width="1605" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-272" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-271">
+          <mxGeometry x="112.5" y="100" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-275" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-274" target="AlgaWU_Uzo2HSWFZ5_zv-276">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="5885" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-274" value="Aktywacja konta IKE w systemie" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="230" y="5845" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-273" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-272" target="AlgaWU_Uzo2HSWFZ5_zv-274">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="5885" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-276" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="1">
+          <mxGeometry x="535" y="5860" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-280" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-279" target="AlgaWU_Uzo2HSWFZ5_zv-281">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="5555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-279" value="Wprowadzenie wniosku w systemie" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="280" y="5515" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-278" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-277" target="AlgaWU_Uzo2HSWFZ5_zv-279">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="5555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-281" value="Zlecenie systemowe aktywacji konta IKE" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=signal;" vertex="1" parent="1">
+          <mxGeometry x="665" y="5530" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-285" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-284" target="AlgaWU_Uzo2HSWFZ5_zv-286">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="5305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-284" value="Weryfikacja nadesłanych dokumentów" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="290" y="5265" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-283" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-282" target="AlgaWU_Uzo2HSWFZ5_zv-284">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="5305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-287" value="Wniosek bez błędu" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-286" target="AlgaWU_Uzo2HSWFZ5_zv-279">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="5330" />
+              <mxPoint x="480" y="5480" />
+              <mxPoint x="340" y="5480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-289" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-286" target="AlgaWU_Uzo2HSWFZ5_zv-290">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="5305.666666666667" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-286" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" vertex="1" parent="1">
+          <mxGeometry x="655" y="5280" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-290" value="Przekazanie wniosku do poprawienia" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=message;" vertex="1" parent="1">
+          <mxGeometry x="845" y="5280.666666666667" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-296" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-295" target="AlgaWU_Uzo2HSWFZ5_zv-297">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="5015" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-295" value="Przygotowanie dokumentów do przekazania do oddziału" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="560" y="4975" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-294" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-293" target="AlgaWU_Uzo2HSWFZ5_zv-295">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="5015" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-297" value="Przekazanie wniosku do oddziału" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=message;" vertex="1" parent="1">
+          <mxGeometry x="855" y="4990" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-298" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Rezerwacja pensjonatu i autobusu na wycieczkę&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="295" y="6260" width="805" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-301" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-300" target="AlgaWU_Uzo2HSWFZ5_zv-302">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520.0000000000005" y="6470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-308" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-300" target="AlgaWU_Uzo2HSWFZ5_zv-309">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="6900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-300" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="1">
+          <mxGeometry x="275" y="6720" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-306" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-302" target="AlgaWU_Uzo2HSWFZ5_zv-307">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="6700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-302" value="Rezerwacja przejazdu autobusem" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="410.00000000000045" y="6510" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-303" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=eventInt;symbol=compensation;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-302">
+          <mxGeometry x="49.999999999999545" y="60" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-305" value="Anulowanie rezerwacji" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopComp=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="6650" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-304" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-303" target="AlgaWU_Uzo2HSWFZ5_zv-305">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="6690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="485" y="6640" />
+              <mxPoint x="535" y="6640" />
+              <mxPoint x="535" y="6690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-307" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="1">
+          <mxGeometry x="980" y="6680" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-309" value="Rezerwacja przejazdu autobusem" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="615.0000000000005" y="6810" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-310" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=eventInt;symbol=compensation;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-309">
+          <mxGeometry x="49.999999999999545" y="60" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-311" value="Anulowanie rezerwacji" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopComp=1;" vertex="1" parent="1">
+          <mxGeometry x="765" y="6950" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-312" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="AlgaWU_Uzo2HSWFZ5_zv-311">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="825" y="6990" as="targetPoint" />
+            <mxPoint x="690" y="6920" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="690" y="6940" />
+              <mxPoint x="740" y="6940" />
+              <mxPoint x="740" y="6990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-313" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-309" target="AlgaWU_Uzo2HSWFZ5_zv-307">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-314" value="" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;arcSize=10;dashed=1;fillColor=none;gradientColor=none;dashPattern=8 3 1 3;strokeWidth=2;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="7040" width="755" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-315" value="Aktualizacja dotycząca karty kredytowej" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="315" y="7060" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-320" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-319" target="AlgaWU_Uzo2HSWFZ5_zv-322">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="7200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-319" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=message;" vertex="1" parent="1">
+          <mxGeometry x="354" y="7175" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-323" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-322" target="AlgaWU_Uzo2HSWFZ5_zv-324">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-322" value="Aktualizacja co do karty kredytowej" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="560" y="7160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-324" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="1">
+          <mxGeometry x="805" y="7175" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-325" value="" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;arcSize=10;dashed=1;fillColor=none;gradientColor=none;dashPattern=8 3 1 3;strokeWidth=2;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="7450" width="755" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-326" value="&#xa;Obsługa kompensacji - anulowania lotu i pensjonatu&#xa;&#xa;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="305" y="7500" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-328" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-327" target="AlgaWU_Uzo2HSWFZ5_zv-329">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-327" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=eventInt;symbol=compensation;" vertex="1" parent="1">
+          <mxGeometry x="330" y="7590" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-329" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=compensation;" vertex="1" parent="1">
+          <mxGeometry x="563.75" y="7590" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-333" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-330" target="AlgaWU_Uzo2HSWFZ5_zv-334">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-330" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=compensation;" vertex="1" parent="1">
+          <mxGeometry x="720" y="7590" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-332" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-329" target="AlgaWU_Uzo2HSWFZ5_zv-330">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-335" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-334" target="AlgaWU_Uzo2HSWFZ5_zv-336">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-334" value="Zmiana danych klienta" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="810" y="7575" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-336" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="1">
+          <mxGeometry x="980" y="7590" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-337" value="" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;arcSize=10;dashed=1;fillColor=none;gradientColor=none;dashPattern=8 3 1 3;strokeWidth=2;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="7850" width="755" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-338" value="Obsługa błędu przy rezerwacji" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="315" y="7910" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-344" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-339" target="AlgaWU_Uzo2HSWFZ5_zv-340">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-339" value="Pojawienie sie błędu rezerwacji" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=eventInt;symbol=error;" vertex="1" parent="1">
+          <mxGeometry x="325" y="8030" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-345" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-340" target="AlgaWU_Uzo2HSWFZ5_zv-341">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-346" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-340" target="AlgaWU_Uzo2HSWFZ5_zv-342">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-340" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=parallel;" vertex="1" parent="1">
+          <mxGeometry x="470" y="8030" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-348" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-341" target="AlgaWU_Uzo2HSWFZ5_zv-347">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-341" value="Autobus" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=compensation;" vertex="1" parent="1">
+          <mxGeometry x="650" y="7950" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-342" value="Pensjonat" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=compensation;" vertex="1" parent="1">
+          <mxGeometry x="650" y="8090" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-343" value="Zakończenie obsługi błędu rezerwacji" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=error;" vertex="1" parent="1">
+          <mxGeometry x="900" y="8030" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-347" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=parallel;" vertex="1" parent="1">
+          <mxGeometry x="755" y="8030" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-349" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-342" target="AlgaWU_Uzo2HSWFZ5_zv-347">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-350" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-347" target="AlgaWU_Uzo2HSWFZ5_zv-343">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-354" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-353" target="AlgaWU_Uzo2HSWFZ5_zv-355">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10" y="6495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-353" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="6470" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-356" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-355" target="AlgaWU_Uzo2HSWFZ5_zv-357">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="6495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-355" value="Pobranie informacji o karcie kredytowej" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="6455" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-357" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" vertex="1" parent="1">
+          <mxGeometry x="115" y="6470" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-358" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.003;entryY=0.034;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-357" target="AlgaWU_Uzo2HSWFZ5_zv-352">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-360" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-359" target="AlgaWU_Uzo2HSWFZ5_zv-361">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1300" y="8115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-359" value="Pojawienie się błędu rezerwacji" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=eventInt;symbol=error;" vertex="1" parent="1">
+          <mxGeometry x="1146" y="8090" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-363" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-361" target="AlgaWU_Uzo2HSWFZ5_zv-364">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1490" y="8114" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-361" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="8090" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-362" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-357" target="AlgaWU_Uzo2HSWFZ5_zv-361">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="8410" />
+              <mxPoint x="1300" y="8410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-365" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-364" target="AlgaWU_Uzo2HSWFZ5_zv-366">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1634" y="8114" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-364" value="Powiadomienie klienta o niepowodzeniu rezerwacji" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="8074" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-366" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="1">
+          <mxGeometry x="1609" y="8089" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-369" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-367" target="AlgaWU_Uzo2HSWFZ5_zv-370">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1690" y="6560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-367" value="Obciązenie karty kredytowej" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="6520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-371" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=boundInt;symbol=error;" vertex="1" parent="AlgaWU_Uzo2HSWFZ5_zv-367">
+          <mxGeometry x="50" y="-30" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-368" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-367" target="AlgaWU_Uzo2HSWFZ5_zv-352">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-370" value="Koniec- powodzenie rezerwacji" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="1">
+          <mxGeometry x="1665" y="6535" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-374" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-373" target="AlgaWU_Uzo2HSWFZ5_zv-375">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1495" y="6330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-373" value="Rezerwacja" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=compensation;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="6400" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-372" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-371" target="AlgaWU_Uzo2HSWFZ5_zv-373">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1495" y="6380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-377" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-375" target="AlgaWU_Uzo2HSWFZ5_zv-378">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1700" y="6329.666666666667" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-375" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="6305" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-376" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-353" target="AlgaWU_Uzo2HSWFZ5_zv-375">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-379" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlgaWU_Uzo2HSWFZ5_zv-378" target="AlgaWU_Uzo2HSWFZ5_zv-380">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1850" y="6329.666666666667" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-378" value="Powiadomienie klienta o niepowodzeniu rezerwacji" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="6289.666666666667" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlgaWU_Uzo2HSWFZ5_zv-380" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="1">
+          <mxGeometry x="1825" y="6304.666666666667" width="50" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
